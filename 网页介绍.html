@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title></title>
+   <!-- <script> document.documentElement.style.fontSize = document.documentElement.clientWidth/6.4+"px";</script>-->
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+
+
+        }
+        .content{
+
+        }
+
+        #wrap{
+
+            max-width: 1300px;
+            margin: auto;
+        }
+        #top{
+            width: 100%;
+            overflow: hidden;
+            background: url("img/backgroundto.png");
+            text-align: center;
+
+        }
+        #one{
+            text-align: left;
+            padding-left: 100px;
+        }
+        #two{
+            text-align: right;
+            padding-right: 60px;
+        }
+        #content{
+            width: 100%;
+            background: url("img/backgroundto.png");
+
+
+            overflow: hidden;
+            opacity:0.8;
+
+        }
+        .content{
+            margin: 30px auto;
+            padding:10px;
+            width: 98%;
+            column-count: 2;
+            column-gap: 40px;
+            column-rule: 5px double black;
+
+            font-family: "宋体";
+            font-size: 12px;
+            line-height: 20px;
+
+        }
+
+
+        .content p{
+            background-color: white;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            padding: 10px;
+            font-weight: 600;
+
+
+        }
+        .content h3{
+            width: 100%;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            background: url("img/backgroundto.png");
+            margin: 10px 0;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 800;
+
+        }
+        span {
+            font-size: 30px;
+            font-weight: bold;
+
+
+
+        }
+        p{
+            text-indent: 2em;
+        }
+        #last{
+            background-color: white;
+            opacity: 0.8;
+
+
+        }
+        #last h3{
+            display: block;
+            padding: 10px 0;
+
+        }
+       #last>ul{
+           display: block;
+           margin-left: 20px ;
+           margin-top: 10px;
+
+       }
+        #last ul li{
+            counter-increment: abc;
+            list-style-position: inside;
+            list-style: none;
+
+            font-weight: 600;
+            text-align: left;
+
+        }
+        #last ul li:before{
+            content: counter(abc);
+            background-color:black;
+            padding: 3px;
+            color: white;
+            margin-right: 20px;
+        }
+#head-two{
+    margin-top: 10px;
+}
+
+#tpian{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+
+}
+        #head-two input{
+
+        }
+        #soushuo{
+            height: 34px;
+            line-height: 32px;
+            background-color: #685dff;
+            width: 100px;
+            border: none 0;
+            color: white;
+
+        }
+        #soushuo:hover{
+            background-color: #7a77ff;
+
+        }
+        #head-two-a{
+            width: 300px;
+            height: 30px;
+            line-height: 30px;
+
+
+        }
+
+        #head-one ul{
+            margin-top: 10px;
+            width: 100%;
+            background-color: #685dff;
+            height: 50px;
+            line-height: 50px;
+        }
+#head-one ul li {
+    display: inline-block;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+        #head-one ul li:hover {
+            background-color: #7a77ff;
+
+        }
+       #head-one ul a{
+             text-decoration: none;
+             color: white;
+         }
+         a{
+            text-decoration: none;
+            color: black;
+        }
+
+
+        a:hover{
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <div id="top">
+
+        <div id="head-one">
+            <div id="head-two">
+                <input type="text" placeholder="阴阳师攻略大全" id="head-two-a"/><input type="button" id="soushuo" value="搜索攻略"/>
+            </div>
+
+            <ul>
+                <li><a href="">最新</a></li>
+                <li><a href="">新闻</a></li>
+                <li><a href="">公告</a></li>
+                <li><a href="">活动</a></li>
+                <li><a href="">媒体</a></li>
+                <li><a href="">攻略</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="content">
+        <div class="content">
+            <img src="img/bannerimg1_f36ea59.jpg" alt="" id="tpian"/>
+            <h3>背景设定</h3>
+            <p>
+                <span>故</span>故事发生在人鬼共生的年代，原本属于阴界的魑魅魍魉，潜藏在人类的恐慌中伺机而动，阳界的秩序岌岌可危。幸而世间有着一群懂得观星测位、画符念咒，还可以跨越阴阳两界，甚至支配灵体的异能者，他们正各尽所能，为了维护阴阳两界的平衡赌上性命战斗并被世人尊称为“阴阳师”</p>
+            <h3>角色设定</h3>
+            <p>游戏中玩家扮演一名阴阳师，其职责就是退治妖怪，玩家角色与被收服的式神作为作战单位一同参与到战斗中。游戏中玩家初始角色为安倍晴明，其余角色需要玩家角色到达一定等级时通关指定剧情才能解锁更换</p>
+           <p>
+                游戏中阴阳师有体力的设定，玩家角色每进行副本、关卡地图通关等操作都需要消耗体力，当体力值不满操作所需的体力值时玩家角色便无法进行该操作，体力会随时间自动恢复（每五分钟恢复一个单位体力），但也可以通关副本地图或者商城购买获得。体力值上限为100[10-11]  。
+                系统会在每天12:00-14:00、20：00-22:00分别赠送一次体力
+              <h3>御灵</h3>
+               <p>御灵相当于阴阳师的守护者，不同的阴阳师拥有不同的御灵，御灵伴随着阴阳师出入于战斗当中，御灵可以为阴阳师带来额外的属性强化，御灵的等级越高对阴阳师的属性加成就越大，而阴阳师到达一定等级时会获得一个“御灵被动技能”，就是当阴阳师在战斗中如果受到攻击，御灵有几率会对敌方全体进行反击，伤害值取决于御灵的伤害属性。御灵可以通过“吞噬”御魂来强化自己以达到提升等级的目的</p>
+              <h3>妖怪</h3>
+                <p>妖怪是《阴阳师》中的一种角色形象设定，这些角色都是日本文化中的经典妖怪形象，设定为“祸害”即担任游戏中的反派角色，阴阳师的职责就是退治妖怪，而当妖怪被阴阳师收服之后则称为“式神”，成为阴阳师的作战单位[14]  。妖怪和式神都有等级、属性和技能的设定。</p>
+            <h3>式神</h3>
+            <p>式神是指被阴阳师所役使的灵体，在游戏中作为阴阳师玩家角色的作战单位，其按照品阶分为犬神、犬鬼、游浮灵、地缚灵和饭纲，以游戏里的评级形式分为SSR、SR、R、N
+                《阴阳师》游戏中的式神主要获得除了主线剧情之外，还是需要通过游戏中玩家进行抽取获得，召唤需要阴阳师用符咒进行召唤，召唤分为三种，分别需要消耗破碎符咒（可获得N-R级式神）、神秘符咒（可获得 R-SSR级式神）、勾玉（每100勾玉可召唤一次，可获得R-SSR级式神）来进行开启，符咒使用后随机召唤出新的式神。玩家角色（阴阳师）收服的式神存在于式神录中，曾获得的式神也会记录在式神图鉴中</p>
+             <h3>物品道具</h3>
+            <p>
+                御魂是《阴阳师》中穿戴在式神身上的一种增强道具，相当于式神的装备。每个式神默认拥有六个可以装备御魂的位置。每一套御魂有6个部位，同一种御魂装备2件和4件可以激活特殊效果，玩家可以把同种御魂理解为套装，成为御魂套，不同御魂的套装效果各不相同，而除了套装额外加成属性外，每个单独的御魂拥有一定的属性。御魂拥有等级设定，是以“勾玉”（星级）为等级代表符号，最高等级为六个勾玉，高勾玉（星级）的御魂除了固定属性外，还随机附带其他属性，附带属性从下表御魂所带所有属性中随机选取[      <p>
+                游戏中的增益道具指的是让玩家角色或结界在短时间可以获得各种增益的道具，角色增益道具如经验加成道具可以让玩家角色在一定时间内获得的经验收获翻倍、金币加成道具可以可以让玩家角色在一定时间内获得的金币收获翻倍，结界增益道具如“结界加固·生命”可以增加阴阳寮结界的生命，增益道具可以在游戏中的商店和神社中购买，而结界的增益道具只在神社中售卖</p>
+            <h3>消耗品</h3>
+            <p>
+                游戏中有货币和代币两种通货，金币、勾玉作为玩家主要的交易货币，在商店中使用，金币可以在通关副本时获得，注意一点的是勾玉是使用现实货币充值所得，勾玉可以购买大部分道具（体力、御魂、金币、皮肤等），当然玩家也可以在游戏的某些活动（节日活动、剧情任务等）中免费获得只是相对量比较少，勾玉可以通过购买金币礼包转换为金币[11]  [27]  。
+                代币有勋章，勋章在玩家角色通关副本或参与阴阳寮的相关活动中可以获得，而勋章分为个人勋章和公会勋章，个人勋章可以在商店中使用消费，而公会勋章只能用于阴阳寮的神社中消费，并且只能由阴阳寮的阴阳寮会长和副会长使用[24]</p>
+              <p><a href="index.html">阴阳师主页</a> <a href="自适应页面.html">手机端</a> <a href="content.html">阴阳师官网</a> <a  href="">微信</a> <a href="">QQ</a></p>
+            <div id="last">
+                <h3>选择一项设计</h3>
+
+                <ul>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+                    <li><a href="">作品 #1 创作 作者1</a></li>
+
+                </ul>
+
+                <h3>作品档案</h3>
+
+                <ul>
+                    <li><a href="">下一个设计 »</a></li>
+                    <li><a href="">浏览所有设计</a></li>
+                </ul>
+
+                <h3>参考资源</h3>
+                <ul>
+                    <li><a href="">查看这个设计的样式表CSS</a></li>
+                    <li><a href="">查看这个设计的样式表CSS</a></li>
+                    <li><a href="">查看这个设计的样式表CSS</a></li>
+                    <li><a href="">查看这个设计的样式表CSS</a></li>
+                </ul>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
